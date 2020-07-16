@@ -3,6 +3,33 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Curso Python clase 02</title>
+   <style>
+           * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        p {
+            margin: 1em;
+        }
+
+        .cols {
+            height: 300px;
+        }
+            .col1 {
+                background-color: orange;
+                width: 50%;
+            }
+            .col2 {
+                background-color: skyblue;
+                width: 49%;
+            }
+            .col1,
+            .col2 {
+                display: inline-block;
+                height: 100%;
+            }
+   </style>
 </head>
 <body>
    <center>
@@ -13,9 +40,11 @@
    <br/>
    <br/>
    <br/>
-      <div>
-      <div><img src="http://colombiaeduca.org/36-home_default/curso-de-python-completo.jpg"/><div>
-<div>      
+ <div class="cols">
+        <div class="col1">
+           <img src="http://colombiaeduca.org/36-home_default/curso-de-python-completo.jpg"/>
+        <div>
+         <div class="col2">      
 <pre>      
 # Esto es el primer comentario
 
@@ -41,8 +70,8 @@ variable = "texto"
 
 nombre_completo = "Curso de Python"
 </pre>
-      </div>  
-         </div>
-      </center>
+             </div>  
+</div>
+</center>
 </body>
 </html>
